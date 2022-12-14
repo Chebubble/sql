@@ -1,4 +1,4 @@
-CREATE IF NOT EXISTS genre(
+CREATE TABLE IF NOT EXISTS genre(
 id SERIAL primary key,
 genre_name VARCHAR(60) NOT null unique
 );
